@@ -20,4 +20,6 @@ git restore --staged README.md
 
 At the end, we commit both changes seperately.
 
+Now, we want to merge branches dev and main. Since the file 'README.md' is different in these two branches, we must resolve conflicts.
+
 At the same time, in bran dev2, we solve problem for inputs at most 50. This way we will have to solve conflicts at the end.
