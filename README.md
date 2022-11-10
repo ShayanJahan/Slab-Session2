@@ -29,3 +29,5 @@ Meanwhile, using commands like 'git log' and 'get diff', we can get necessary in
 We make a new branch hotfix, and fix the recent bug in this branch. At the end, we merge it into branch main.
 
 Finally, we solve problem completely in branch dev by removing if; and we merge it into main using a pull request.
+
+# Questions
