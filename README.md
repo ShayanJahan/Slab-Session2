@@ -8,3 +8,4 @@ After that, we have updated 'README.md',and committed our changes using this lin
 
 git commit -m 'Update README.md' -m 'New information has been added to README'
 
+Next, we make branch main protected, and we make a new branch named dev.
