@@ -1,5 +1,15 @@
 # Slab-Session2
 
+At first, we have added our module "sum.py". We have committed our changes using this line:
+
+git commit -m 'Add sum.py' -m 'This module is going be able to add two numbers and show the result to the user'
+
+After that, we have updated 'README.md',and committed our changes using this line:
+
+git commit -m 'Update README.md' -m 'New information has been added to README'
+
+Next, we make branch main protected, and we make a new branch named dev.
+
 After that, we solve problem for inputs at most 10 in branch dev, and we merge this branch into branch main
 
 Now, we improve the code in branch dev and solve problem for inputs at most 30.
@@ -9,5 +19,7 @@ Since we have changed both README.md and sum.py, we want to add and commit them 
 git restore --staged README.md
 
 At the end, we commit both changes seperately.
+
+Now, we want to merge branches dev and main. Since the file 'README.md' is different in these two branches, we must resolve conflicts.
 
 At the same time, in bran dev2, we solve problem for inputs at most 50. This way we will have to solve conflicts at the end.
