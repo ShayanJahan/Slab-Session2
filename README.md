@@ -20,4 +20,4 @@ git restore --staged README.md
 
 At the end, we commit both changes seperately.
 
-At the same time, in bran dev2, we solve problem for inputs at most 50. This way we will have to solve conflicts at the end.
+Now, we improve code in branch dev to solve problem for input at most 50. At the same time, in bran dev2, we solve problem for inputs at most 70, and we have a minor bug, we set result = a + b + 1. This way we will have to solve conflicts at the end.
