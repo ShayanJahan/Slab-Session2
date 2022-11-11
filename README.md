@@ -42,4 +42,4 @@ Finally, we solve problem completely in branch dev by removing if; and we merge 
 
 5. The command 'git reset' will be used to reset changes on a private branch; which means, using that you can reset uncommitted changes. While the command 'get revert' will be used to reset changes on a public branch; This means you can reset changes committed changes. For example, when you are working on your own local repository, and you made mistake and you want to put everything back to some state, you may use git reverse; on the other hand, when you are working on remote branch and you have made some mistake on the changes you made, you may use git revert to put everything back at their previous state.
 
-6. Snapshot takes record of whole directories, now just the one you are working on. On the other hand, stage takes record of your working directory.
+6. Snapshot takes record of whole directories, now just the one you are working on. On the other hand, stage takes the record of your working directory.
